@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+    <head>
+        <title>Form</title>
+       <link rel="stylesheet" type="text/css" href="form.css">
+        <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-auth.js"></script>
+        <script src="form.js">    </script>
+        <style> 
+        
+
+            </style>
+    </head>
+    <body>
+        <h1>Sign In</h1>
+        <div id="formContainer"> 
+            <div class="container">
+             <input type="email" placeholder="Enter your email" id="email">  </input>
+             <input type="password" placeholder="Enter your password" id="password"> </input>
+      
+              <button onclick="signIn()"> Sign In</button>
+
+              <button onclick="googleSignIn()"> Sign in with Google </button>
+      
+              <h2> Sign up now</h2>
+
+              <button onclick="window.location.href='signup.html'" >Sign Up</button>
+
+              
+      
+            </div>
+       
+     </div>
+
+    </div>
+</body>
+</html>

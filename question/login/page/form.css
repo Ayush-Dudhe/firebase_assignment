@@ -1,0 +1,44 @@
+
+h1{
+    margin: 100px auto;
+    text-align:  center;
+    color: black;   
+   }
+
+   body {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    background-color:  #effca7;
+  text-align: center;}
+
+   input[type=text], input[type=password], input[type=email] {
+     width: 100%;
+     padding: 12px 20px;
+     margin: 8px 0;
+     display: inline-block;
+     border: 1px solid rgb(17, 16, 16);
+     box-sizing: border-box;
+   }
+   
+   button {
+     background-color:black;
+     color: white;
+     padding: 14px 20px;
+     margin: 8px 0;
+     width: 100%;
+     
+   
+   }
+   
+   .container {
+     padding: 16px;
+     margin-top: 20px;
+   }
+   
+   #formContainer{
+       width:90%;
+       height:90%;
+       margin-top: 30px;
+       margin-left: auto; 
+       margin-right: auto;
+      
+      }
+   
